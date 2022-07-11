@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    header {
+        .nav-desktop {
+            display: none;
+        }
+        // display: none !important;
+        img {
+            // display: none;
+        }
+    }
+    .swiper-button-prev::after, .swiper-button-next::after{
+        font-size:1.4rem !important;
+    }
+    .circle-background-wrapper {
+        display: none;
+    }
+    body .scroll-section {
+        max-height: 100%;
+    }
+    .our-partners-section p {
+        width: 100% !important;
+    }
+    #slider {
+        display: none;
+    }
+    .container-md-block {
+        padding: 0 !important;
+    }
+    .d-xs-block {
+        display: block !important;
+    }
+    .cta-area {
+        h3 {
+            font-size: 2em;
+        }
+        h2 {
+            font-size: 3em;
+        }
+    }
+    .member-proffesion:not(.main-proffesion) {
+        display: none !important;
+    }
+    .our-team-wrapper h2 {
+        font-size: 4rem !important;
+        color: hsl(354, 68%, 40%);
+    }
+    footer {
+        text-align: center;
+    }
+}
+
+@media (min-width:750px) {
+    .nav-mobile {
+        display: none !important;
+    }
+}
